@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://omayo.blogspot.com/"/>
+  <test thread-count="5" name="GitHub(failed)">
+    <parameter name="URL" value="https://github.com/ThiroshMadhusha"/>
+    <classes>
+      <class name="k_pack.TestSeven">
+        <methods>
+          <include name="testA" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- k_pack.TestSeven -->
+    </classes>
+  </test> <!-- GitHub(failed) -->
+</suite> <!-- Failed suite [Suite] -->

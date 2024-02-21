@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<!-- 1st Test Module -->
+	<test thread-count="5" name="Blog">
+
+		<!-- Value is String type, then we add it on Java TestN Class -->
+		<parameter name="URL" value="https://omayo.blogspot.com/" />
+		<classes>
+			<class name="t_pack.TestOne" />
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- 2nd Test Module -->
+	<test thread-count="5" name="GitHub">
+		<parameter name="URL"
+			value="https://github.com/ThiroshMadhusha" />
+
+		<classes>
+			<class name="k_pack.TestSeven" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

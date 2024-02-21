@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-19T11:37:01 IST" name="Suite" finished-at="2024-02-19T11:37:29 IST" duration-ms="27924">
+    <groups>
+    </groups>
+    <test started-at="2024-02-19T11:37:01 IST" name="Blog" finished-at="2024-02-19T11:37:14 IST" duration-ms="13055">
+      <class name="t_pack.TestOne">
+        <test-method signature="testA(java.lang.String)[pri:0, instance:t_pack.TestOne@2a4fb17b]" started-at="2024-02-19T11:37:01 IST" name="testA" finished-at="2024-02-19T11:37:09 IST" duration-ms="7881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://omayo.blogspot.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method signature="testB(java.lang.String)[pri:0, instance:t_pack.TestOne@2a4fb17b]" started-at="2024-02-19T11:37:09 IST" name="testB" finished-at="2024-02-19T11:37:14 IST" duration-ms="5113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://omayo.blogspot.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+      </class> <!-- t_pack.TestOne -->
+    </test> <!-- Blog -->
+    <test started-at="2024-02-19T11:37:14 IST" name="GitHub" finished-at="2024-02-19T11:37:29 IST" duration-ms="14766">
+      <class name="k_pack.TestSeven">
+        <test-method signature="testA(java.lang.String)[pri:0, instance:k_pack.TestSeven@662ac478]" started-at="2024-02-19T11:37:14 IST" name="testA" finished-at="2024-02-19T11:37:23 IST" duration-ms="8131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://github.com/ThiroshMadhusha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method signature="testB(java.lang.String)[pri:0, instance:k_pack.TestSeven@662ac478]" started-at="2024-02-19T11:37:23 IST" name="testB" finished-at="2024-02-19T11:37:29 IST" duration-ms="6629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://github.com/ThiroshMadhusha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+      </class> <!-- k_pack.TestSeven -->
+    </test> <!-- GitHub -->
+  </suite> <!-- Suite -->
+</testng-results>
